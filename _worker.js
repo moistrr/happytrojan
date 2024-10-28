@@ -1,11 +1,11 @@
 // _worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIP = '';
+let proxyIP = 'ip.o00o.ooo';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
-let socks5Address = '9vWRnixW59:hQ1gfI3Atn@212.16.87.39:22222';
+let socks5Address = '';
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
